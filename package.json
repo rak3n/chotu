@@ -3,10 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "preinstall": ". ~/.nvm/nvm.sh;nvm install 18.17.0",
+    "dev": ". ~/.nvm/nvm.sh;nvm install 18.17.0;next dev",
+    "build": ". ~/.nvm/nvm.sh;nvm install 18.17.0;next build",
+    "start": ". ~/.nvm/nvm.sh;nvm install 18.17.0;next start",
+    "lint": ". ~/.nvm/nvm.sh;nvm install 18.17.0;next lint"
   },
   "dependencies": {
     "react": "^18",
